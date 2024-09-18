@@ -55,7 +55,7 @@ export default function Component() {
             <div className="text-white">
               <h2 className="text-3xl font-bold mb-4">About Me</h2>
               <p className="text-lg">
-                I'm a passionate Software Engineer with experience in various technologies and industries. I specialize
+                Im a passionate Software Engineer with experience in various technologies and industries. I specialize
                 in developing innovative solutions and have a strong background in automation, testing, and full-stack
                 development.
               </p>
