@@ -68,7 +68,7 @@ export default function Component() {
                 I have over 5 and a half years of work experience working for companies such as Northrop Grumman, Komatsu Mining Corporation, Erie Insurance, General Electric, and Wabtec US Rail. 
                 My work has included developing software automation technologies, full-stack web application development, data analysis, enterprise database/ content management, user interface development, embedded system development, artificial intelligence, integration/ validation testing and more.
                 I have experience with languages such as C++, Python, Java, Junit, NI LabVIEW, Microsoft SQL, ASP.NET, C#, VB.NET, Javascript, and other web programming languages/ frameworks. 
-                I'm currently looking for full time, in-peron or hybrid positions in the Pittsburgh PA area or fully remote positions.
+                Im currently looking for full time, in-peron or hybrid positions in the Pittsburgh PA area or fully remote positions.
               </p>
             </div>
           )}
@@ -92,9 +92,9 @@ export default function Component() {
                   <ul className="list-disc list-inside">
                     <li>Lead developer of the 3D Navigation HMI (a soon to be released operator screen used for in-cab and remote operation of drill machines)</li>
                     <li>Developed several new operator screens for the drill HMI, front-end UX and back-end code in LabVIEW</li>
-                    <li>Constructed new database architecture and scripts in SQL Server Management Studio and LabVIEW's SQL API</li>
+                    <li>Constructed new database architecture and scripts in SQL Server Management Studio and LabVIEWs SQL API</li>
                     <li>Designed architecture for the new remote operation control system</li>
-                    <li>Supported development of underlying architecture and front-end UI code for the new Auto Pilot Project (a new-to-be released system for fully automating the drill's operating sequences)</li>
+                    <li>Supported development of underlying architecture and front-end UI code for the new Auto Pilot Project (a new-to-be released system for fully automating the drills operating sequences)</li>
                     <li>Revamped project management system in Microsoft Azure DevOps</li>
                     <li>Performed in-field validation testing, resolved issues, and worked with field engineers and operators on fully operational drill machines</li>
                   </ul>
@@ -131,14 +131,14 @@ export default function Component() {
                   <p className="text-lg">Electrical Engineering Lab Manager and Teacher Assistant | January 2018 - December 2018</p>
                   <ul className="list-disc list-inside">
                     <li>Manage, organize, fix, and checkout lab equipment</li>
-                    <li>Grade students' labs, homework, and tests</li>
+                    <li>Grade students labs, homework, and tests</li>
                   </ul>
                 </li>
                 <li>
                   <h3 className="text-xl font-semibold">Erie Insurance</h3>
                   <p className="text-lg">Software Engineer Intern on the Enterprise Content Management team | May 2017 - August 2017</p>
                   <ul className="list-disc list-inside">
-                    <li>Worked on an Agile (Scrum) development team with engineers and analysts developing software to work with IBM's large data management software systems</li>
+                    <li>Worked on an Agile (Scrum) development team with engineers and analysts developing software to work with IBMs large data management software systems</li>
                     <li>Added over 2000 lines of java code to data management system using the software development lifecycle</li>
                     <li>Created automated and manual regressions tests using Java test suites</li>
                   </ul>
