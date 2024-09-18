@@ -97,6 +97,7 @@ export default function Component() {
                 <li className="bg-white bg-opacity-20 p-2 rounded">Git</li>
                 <li className="bg-white bg-opacity-20 p-2 rounded">LabVIEW</li>
                 <li className="bg-white bg-opacity-20 p-2 rounded">ROS</li>
+                <li className="bg-white bg-opacity-20 p-2 rounded">.NET</li>
               </ul>
             </div>
           )}
