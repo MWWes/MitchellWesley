@@ -4,6 +4,7 @@ import { useState } from 'react'
 import { motion } from 'framer-motion'
 import { ChevronDown, Github, Linkedin, Mail } from 'lucide-react'
 import Image from 'next/image'
+import logo from './MitchellWesleyPortrait.jpg'
  
 type Section = 'about' | 'experience' | 'skills' | 'education' | 'contact'
 export default function Component() {
@@ -18,12 +19,12 @@ export default function Component() {
     education: 'bg-yellow-500',
     contact: 'bg-red-500',
   }
-
+  
   return (
     <div className="min-h-screen bg-gray-100 font-sans">
       <header className="bg-gray-900 text-white p-6 sticky top-0 z-10 flex items-center">
         <Image
-          src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/PXL_20240526_153521779.PORTRAIT~3%20(1)-RQS23muFlfVYbIAQXRw8okxMBoZ2JG.jpg"
+          src={logo}
           alt="Mitchell Wesley"
           width={100}
           height={100}
