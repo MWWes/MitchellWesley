@@ -4,19 +4,21 @@ import { useState } from 'react'
 import { motion } from 'framer-motion'
 import { ChevronDown, Github, Linkedin, Mail } from 'lucide-react'
 
+type Section = 'about' | 'experience' | 'skills' | 'education' | 'contact'
+
 export default function Component() {
-  const [activeSection, setActiveSection] = useState('about')
+  const [activeSection, setActiveSection] = useState<Section>('about')
 
-  const sections = ['about', 'experience', 'skills', 'education', 'contact']
+  const sections: Section[] = ['about', 'experience', 'skills', 'education', 'contact']
 
-  const colors = {
+  const colors: Record<Section, string> = {
     about: 'bg-purple-500',
     experience: 'bg-blue-500',
     skills: 'bg-green-500',
     education: 'bg-yellow-500',
     contact: 'bg-red-500',
   }
-  
+
   return (
     <div className="min-h-screen bg-gray-100 font-sans">
       <header className="bg-gray-900 text-white p-6 sticky top-0 z-10">
@@ -53,7 +55,7 @@ export default function Component() {
             <div className="text-white">
               <h2 className="text-3xl font-bold mb-4">About Me</h2>
               <p className="text-lg">
-                Im a passionate Software Engineer with experience in various technologies and industries. I specialize
+                I'm a passionate Software Engineer with experience in various technologies and industries. I specialize
                 in developing innovative solutions and have a strong background in automation, testing, and full-stack
                 development.
               </p>
@@ -144,4 +146,3 @@ export default function Component() {
       </div>
     </div>
   )
-}
