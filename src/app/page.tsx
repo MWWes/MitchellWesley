@@ -4,7 +4,7 @@ import { useState } from 'react'
 import { motion } from 'framer-motion'
 import { ChevronDown, Github, Linkedin, Mail } from 'lucide-react'
 import Image from 'next/image'
-
+ 
 type Section = 'about' | 'experience' | 'skills' | 'education' | 'contact'
 export default function Component() {
   const [activeSection, setActiveSection] = useState<Section>('about')
